@@ -263,7 +263,7 @@ input.text:focus {
 
 .submit {
 	color: #fff;
-	background: #846CED;
+	background: #8F37FF;
 	border: 0;
 	-webkit-appearance: none;
 	text-transform: uppercase;
@@ -321,7 +321,7 @@ input.text:focus {
 	bottom: 0;
 	width: 38px;
 	height: 10px;
-	background: #846CED;
+	background: #8F37FF;
 	margin: auto;
 }
 
@@ -375,7 +375,7 @@ input.text:focus {
 		height: 90%;
 		height: calc(100% - 0.2em);
 		width: 5px;
-		background: #846CED;
+		background: #8F37FF;
 	}
 
 	.scaled.heading-bordered:before {
@@ -410,7 +410,7 @@ input.text:focus {
 		height: 100%;
 		height: calc(100% - 0.5rem);
 		width: 5px;
-		background: #846CED;
+		background: #8F37FF;
 	}
 
 	.scaled.md-heading-bordered:before {
@@ -442,7 +442,7 @@ input.text:focus {
 		height: 100%;
 		height: calc(100% - 0.5rem);
 		width: 5px;
-		background: #846CED;
+		background: #8F37FF;
 	}
 
 	.scaled.sm-heading-bordered:before {
@@ -498,7 +498,7 @@ input.text:focus {
 }
 
 .btn:hover {
-	color: #846CED;
+	color: #8F37FF;
 }
 
 @media ( min-width: 768px ) {
@@ -588,7 +588,7 @@ input.text:focus {
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	width: 60px;
-	background-color: #846CED;
+	background-color: #8F37FF;
 }
 
 .btn-append  .submit.appended {
@@ -622,7 +622,7 @@ input.text:focus {
 }
 
 .prepend-hilite .prepended {
-	background-color: #846CED;
+	background-color: #8F37FF;
 }
 
 @media ( min-width: 992px ) {
@@ -717,7 +717,7 @@ input.text:focus {
 	font-weight: 700;
 	line-height: 1;
 	text-transform: uppercase;
-	color: #846CED;
+	color: #8F37FF;
 	position: absolute;
 	top: 50%;
 	margin-top: -.9em;
@@ -757,7 +757,7 @@ input.text:focus {
 
 
 .header .nav .active {
-	color: #846CED;
+	color: #8F37FF;
 }
 
 .level {
@@ -822,7 +822,7 @@ input.text:focus {
 	padding: 40px;
 	font-size: 12px;
 	line-height: 1;
-	color: #846CED;
+	color: #8F37FF;
 	letter-spacing: 0;
 }
 
@@ -864,7 +864,7 @@ input.text:focus {
 
 .level-hero {
 	background-position: 50% 50%;
-	background-color: #846CED;
+	background-color: #8F37FF;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
@@ -908,7 +908,7 @@ input.text:focus {
 	content: "";
 	width: 100%;
 	height: 100%;
-	background: #846CED;
+	background: #8F37FF;
 }
 
 .hint-arrow {
@@ -979,7 +979,7 @@ input.text:focus {
 
 .hero-home {
 	background-image: url("../img/bg-default.jpg");
-	background-color: #846CED;
+	background-color: #8F37FF;
 	min-height: 400px;
 }
 
@@ -996,7 +996,7 @@ input.text:focus {
 
 @media ( min-width: 600px ) {
 	.hero-home {
-		background-color: #846CED;
+		background-color: #8F37FF;
 		background-image: url("../img/Going-Places.png");
 	}
 
@@ -1321,7 +1321,7 @@ input.text:focus {
 }
 
 .show-section:hover {
-	color: #846CED;
+	color: #8F37FF;
 }
 
 .is-section-archived {
@@ -1365,7 +1365,7 @@ input.text:focus {
 	font-size: 14px;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #846CED;
+	color: #8F37FF;
 }
 .post a.more:hover {
 	text-decoration: underline;
@@ -1406,7 +1406,7 @@ input.text:focus {
 .post h3 a:hover,
 .post a:hover h2,
 .post a:hover h3 {
-	color: #846CED;
+	color: #8F37FF;
 }
 
 .post time,
@@ -1489,7 +1489,7 @@ input.text:focus {
 	content: "";
 	position: absolute;
 	top: 0;
-	background: #846CED;
+	background: #8F37FF;
 }
 
 @media ( max-width: 767px ) {
@@ -1567,7 +1567,7 @@ input.text:focus {
 
 .small-list a {
 	text-decoration: underline;
-	color: #846CED;
+	color: #8F37FF;
 }
 
 /* embed modal share well */
@@ -2053,7 +2053,7 @@ label {
 	opacity: 0;
 	-webkit-transition: opacity .25s;
 	transition: opacity .25s;
-	color: #846CED;
+	color: #8F37FF;
 }
 
 .icon-share:hover:after {
@@ -2061,7 +2061,7 @@ label {
 }
 
 .icon-share:hover {
-	border-color: #846CED;
+	border-color: #8F37FF;
 }
 
 .icon-share svg {
@@ -2079,7 +2079,7 @@ label {
 }
 
 .icon-share:hover svg  {
-	fill: #846CED;
+	fill: #8F37FF;
 }
 
 .icon-facebook svg {
@@ -2237,7 +2237,7 @@ ul.smallest {
 }
 
 a.underline:hover {
-	color: #846CED;
+	color: #8F37FF;
 }
 
 @media ( min-width: 768px ) {
@@ -2563,7 +2563,7 @@ ol.tos li {
 	left: 0;
 	width: 4px;
 	height: 4px;
-	background: #846CED;
+	background: #8F37FF;
 }
 
 /* bottom margins on list-items */
@@ -2615,9 +2615,9 @@ ol.tos li {
 }
 
 .inline-tabs .active {
-	color: #846CED;
+	color: #8F37FF;
 
-	border-color: #846CED;
+	border-color: #8F37FF;
 }
 
 .inline-tabs a {
@@ -2627,7 +2627,7 @@ ol.tos li {
 }
 
 .inline-tabs a:hover {
-	color: #846CED;
+	color: #8F37FF;
 }
 
 .tab-target {
