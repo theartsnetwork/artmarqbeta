@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Montserrat|Montserrat);
 @import url("normalize.css");
 @import url("grid.css");
 @import url("modal.css");
@@ -57,6 +58,16 @@ button {
 	color: #86888b;
 	letter-spacing: -0.035em;
 }
+
+H3 {
+font-family: "Montserrat" !important;
+font-size: 20px !important;
+}
+
+P {
+font-family: "Montserrat" !important;
+}
+
 
 h1,
 .h1,
@@ -978,7 +989,7 @@ input.text:focus {
 /* home hero specific pages */
 
 .hero-home {
-	background-image: url("../img/bg-default.jpg");
+	background-image: url("../img/Going-Places.png");
 	background-color: #8F37FF;
 	min-height: 400px;
 }
@@ -2750,4 +2761,19 @@ ol.tos li {
 		z-index: 3;
 	}
 
+}
+/* FOOTER */
+#f {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #8F37FF;
+}
+
+#f i {
+	margin-right: 30px;
+	font-size: 35px;
+}
+
+#f a {
+	color: white;
 }
