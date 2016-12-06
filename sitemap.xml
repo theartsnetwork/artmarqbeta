@@ -4,17 +4,22 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
- 
 <url>
-  <loc>http://artmarq.com/</loc>
-  <lastmod>2016-09-13T11:21:24+00:00</lastmod>
+  <loc>https://www.artmarq.com/</loc>
 </url>
 <url>
-  <loc>http://artmarq.com/index.html</loc>
-  <lastmod>2016-09-13T11:21:24+00:00</lastmod>
+  <loc>https://www.artmarq.com/story.html</loc>
 </url>
 <url>
-  <loc>http://artmarq.com/about.html</loc>
-  <lastmod>2016-09-13T11:21:24+00:00</lastmod>
+  <loc>https://www.artmarq.com/about.html</loc>
+</url>
+<url>
+  <loc>https://www.artmarq.com/privacypolicy.html</loc>
+</url>
+<url>
+  <loc>https://www.artmarq.com/terms-of-services.html</loc>
+</url>
+<url>
+  <loc>https://www.artmarq.com/index.html</loc>
 </url>
 </urlset>
