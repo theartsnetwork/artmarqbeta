@@ -1,5 +1,3 @@
-
-
 .modal-open {
   overflow: hidden;
 }
@@ -23,7 +21,7 @@
 .modal.in {
 	visibility: visible;
 	opacity: 1;
-	
+
 }
 
 .modal.fade .modal-dialog {
@@ -88,7 +86,7 @@
 
 @media ( min-width: 768px ) {
 	.modal-backdrop {
-		
+
 	}
 }
 
@@ -103,7 +101,7 @@
 	position: absolute;
 	top: 30px;
 	right: 30px;
-	
+
 }
 
 .modal-scrollbar-measure {
@@ -115,7 +113,7 @@
 }
 
 @media (min-width: 768px) {
- 
+
 	.modal-dialog {
 		width: 600px;
 		margin: 30px auto;
@@ -169,4 +167,3 @@
 	}
 
 }
-

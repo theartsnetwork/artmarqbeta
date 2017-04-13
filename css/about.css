@@ -1,7 +1,3 @@
-.page-marketing-standard .heading{
-
-}
-
 .header{
 	background: #fff;
 	opacity:0.9;
@@ -72,10 +68,10 @@ float:center;
 	height: auto;
 	border-bottom: 1px solid #fff;
 	padding-top:140px;
-	background-image: url("../img/artmarq web.png");
-	color: #8F37FF;
+	background: linear-gradient(to left, #2e56ff, #8f37ff);
 }
 
+/*background-image: url("../img/artmarq web.png");*/
 /* adjust hero height with header and adjusted for border-bottom */
 
 @media ( min-width: 992px ) {
@@ -179,8 +175,6 @@ float:center;
 
 	}
 }
-
-
 
 @media ( min-width: 768px ) and ( max-height: 849px ), (max-width: 767px ) and ( max-height: 520px ) {
 	.page-careers .hint-arrow-contrast {
@@ -350,4 +344,14 @@ float:center;
 	margin-bottom: 0;
 
 	border: 0;
+}
+
+.fmenu {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.fmenu a:hover {
+	text-decoration: underline;
+	color: #8f37ff;
 }
