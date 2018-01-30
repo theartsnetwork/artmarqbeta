@@ -19,6 +19,8 @@ body {
     padding-top: 2em;
 }
 
+/*background-image: url("../img/back.gif");*/
+
 html {
     font-size: 16px;
 }
@@ -2854,11 +2856,11 @@ img {
     height: auto;
     border-bottom: 1px solid #fff;
     padding-top: 140px;
-    background: linear-gradient(to left, #2e56ff, #8f37ff);
+    background-image: url("../img/ferdinand-stohr-149422.jpg");
 }
 
 
-/*background-image: url("../img/artmarq web.png");*/
+/*background: linear-gradient(to left, #2e56ff, #8f37ff);*/
 
 /* adjust hero height with header and adjusted for border-bottom */
 
@@ -3118,6 +3120,135 @@ img {
     clip-path: circle(180px at center);
 }
 
+/*----------------------------------*/
+
+/* fullscreen-menu overlay */
+
+#overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* Overlay positioning */
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Want a left- or right sided navigation instead? Just play around with the width! */
+    height: 100%;
+    background: #8F37FF;
+}
+
+#overlay div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+#overlay ul {
+    list-style: none;
+    margin-right: 5%;
+    padding-top: 100px;
+    color: #8F37FF;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+/*background-color:#e3dced;
+    transform: skewY(10deg)
+border: 0px solid #fff;*/
+
+#overlay ul li {
+    padding: 10px;
+    margin: 10px auto;
+}
+
+
+/* fullscreen-menu */
+
+/*----------------------------------*/
+
+/*----------------------------------*/
+
+/* hamburger-icon  */
+
+#nav-icon {
+    position: relative;
+    margin: 0 auto;
+    width: 45px;
+    height: 40px;
+    z-index: 10;
+    /* Bring icon ontop of overlay */
+    cursor: pointer;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 10000;
+}
+
+#nav-icon span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+#nav-icon span:nth-child(1) {
+    top: 10px;
+}
+
+#nav-icon span:nth-child(2) {
+    top: 28px;
+}
+
+#nav-icon span:nth-child(3) {
+    top: 46px;
+}
+
+#nav-icon.animate-icon span {
+    background: #8f37ff;
+}
+
+#nav-icon.animate-icon span:nth-child(1) {
+    top: 28px;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+#nav-icon.animate-icon span:nth-child(2) {
+    opacity: 0;
+    left: -70px;
+}
+
+#nav-icon.animate-icon span:nth-child(3) {
+    top: 28px;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+/* hamburger-icons */
+
+/*----------------------------------*/
 
 /* Menu #menu-artmarq {
 		-moz-transform: translateX(20em);

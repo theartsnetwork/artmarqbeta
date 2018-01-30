@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="apple-itunes-app" content="app-id=1077299956" />
     <title>Artmarq- Bloomberg for Art Business in making</title>
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -24,9 +24,21 @@
     <!-- Header         -->
     <header id="header-artmarq">
         <h1><a href="index.html"><img src="img/artmarqlogos.png" width="60px" height="auto" style="border: 2px solid #fff"></a></h1>
-        <a href="https://twitter.com/artmarqapp"><i class="ion-social-twitter"></i></a>
-        <a href="https://www.linkedin.com/company/artmarq"><i class="ion-social-linkedin"></i></a>
-        <a href="https://www.facebook.com/artmarq/"><i class="ion-social-facebook"></i></a>
+        <a><div id="nav-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+      </div></a>           
+<div id="overlay">
+    <div>
+      <ul>
+        <li><a href="new-direction/starts-here.html">NEW DIRECTION</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="https://edition.artmarq.com">EDITION</a></li>
+        <li><a href="story.html">SUBMIT</a></li>
+      </ul>
+    </div>
+</div>
     </header>
 
     <div class="level level-hero hero-home has-hint">
@@ -75,7 +87,8 @@
                 </div>
             </div>
         </div>
-        <img src="img/v2/artmarq-banner.png" alt="Artmarq is now on iPhone App Store" class="mb-80 hidden-xs iphone-inline">
+        <div><img src="img/v2/artmarq-banner.png" alt="Artmarq is now on iPhone App Store" class="mb-80 hidden-xs iphone-inline"></div>
+        
         <div class="container">
             <div class="row mb-90 xs-mb-10">
                 <div class="col-sm-1 col-sm-offset-2">
@@ -194,6 +207,7 @@
     </div>
     <!--/level-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/script.min.js"></script>
     <script src="js/jquery.validate.js"></script>
     <script src="js/jquery.scrolly.min.js"></script>
     <script src="js/modernizr.js"></script>
@@ -207,7 +221,6 @@
         });
 
     </script>
-    <script></script>
 </body>
 
 </html>
