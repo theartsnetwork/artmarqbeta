@@ -20,6 +20,19 @@
         supportsCssVars() || alert("Please view 'New Direction' in a modern browser that supports CSS Variables.");
 
     </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69580029-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-69580029-3');
+
+    </script>
 </head>
 
 <body class="demo-6">
@@ -76,7 +89,7 @@
             </header>
             <nav class="demos">
                 <svg class="icon icon--keyboard"><use xlink:href="#icon-keyboard"></use></svg>
-             </nav>
+            </nav>
             <div class="debug">
                 <svg class="icon icon--debug" title="Toggle 3D Mode"><use xlink:href="#icon-debug"></use></svg>
                 <div class="timescale-wrap">
