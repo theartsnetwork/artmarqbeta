@@ -743,8 +743,7 @@ input.text:focus {
 
 @media ( min-width: 768px) {
     .level {
-        padding: 140px 0 160px;
-        padding: 6.364rem 0 7.273rem;
+        padding: 60px 0 60px;
         text-align: left;
     }
 
@@ -754,24 +753,6 @@ input.text:focus {
 
     .level-outro {
         padding-bottom: 6.364rem;
-    }
-
-}
-
-
-.contact,
-.contact * {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.contact .text {
-    width: 130px;
-}
-
-@media ( min-width: 768px) {
-
-    .contact .text {
-        width: 220px;
     }
 
 }
@@ -889,7 +870,7 @@ input.text:focus {
 /* home hero specific pages */
 
 .hero-home {
-    background-image: url("../img/Going-Places.png");
+    background-image: url("../img/Going-Places.mp4");
     background: linear-gradient(to left, #2e56ff, #8f37ff);
     : #8F37FF;
     min-height: 400px;
@@ -910,7 +891,7 @@ input.text:focus {
     .hero-home {
         background: linear-gradient(to right, #2e56ff, #8f37ff);
         : #8F37FF;
-        background-image: url("../img/Going-Places.png");
+        background-image: url("../img/Going-Places.mp4");
     }
 }
 
@@ -963,7 +944,7 @@ input.text:focus {
 .iphone-mobile {
     height: 180px;
     width: 90%;
-    background: url("../img/v2/") 6% 0 no-repeat;
+    background: url("") 6% 0 no-repeat;
     background-size: auto 100%;
 }
 
@@ -983,10 +964,10 @@ input.text:focus {
 
     .level-img-right > .container {
         position: relative;
-        margin-top: 2.727rem;
-        padding: 40px 15px 220px;
-        padding: 1.818rem 15px 10rem;
-        background: transparent url("../img/v2/") 100% 100% no-repeat;
+        margin-top: 2em;
+        padding: 20px 20px 20px;
+        background-color: aqua;
+        background: transparent url("") 100% 100% no-repeat;
         background-size: auto 90%;
     }
 }
@@ -2679,6 +2660,11 @@ ol.tos li {
     padding: 10px;
     position: absolute;
     top: 0;
+ }
+
+#header-artmarq > h1 a img {
+     border: 0px solid #fff;
+    padding: 10px;
 }
 
 #header-artmarq > h1 a {
