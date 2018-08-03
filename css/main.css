@@ -870,7 +870,7 @@ input.text:focus {
 /* home hero specific pages */
 
 .hero-home {
-    background-image: url("../img/Going-Places.mp4");
+    background-image: url("../img/Going-Places.png");
     background: linear-gradient(to left, #2e56ff, #8f37ff);
     : #8F37FF;
     min-height: 400px;
@@ -891,7 +891,7 @@ input.text:focus {
     .hero-home {
         background: linear-gradient(to right, #2e56ff, #8f37ff);
         : #8F37FF;
-        background-image: url("../img/Going-Places.mp4");
+        background-image: url("../img/Going-Places.png");
     }
 }
 
