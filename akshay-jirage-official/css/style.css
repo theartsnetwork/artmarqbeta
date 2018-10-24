@@ -718,6 +718,7 @@ ul.portfolio-image {
     list-style: none;
     position: relative;
     width: 100%;
+    height: auto;
     padding: 0;
     margin: 0;
 }
@@ -766,7 +767,7 @@ ul.portfolio-image li .decription-wrap {
     top: 0;
     left: 0;
     background: rgba(212, 216, 223, 0.4);
-    padding: 10px;
+    padding: 20px;
     transition: background, 0.5s;
 }
 
@@ -787,7 +788,7 @@ ul.portfolio-image li .image-bg {
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    padding: 10px 0;
+    padding: 20px 0;
     position: relative;
     margin: 0 auto;
     text-align: center;
@@ -1491,4 +1492,36 @@ ul.portfolio-image li .desc {
 
 .skillst .count-bar .count span:after {
     border-top: 4px solid #d4d8df;
+}
+
+.shadow {
+    background: #ffffff;
+    color: #40434e;
+    font-family: inherit;
+    text-shadow: #162da1 1px 1px, #162da1 0px 0px, #162da1 1px 1px, #162da1 2px 2px, #162da1 3px 3px, #162da1 4px 4px, #162da1 5px 5px, #162da1 6px 6px, #162da1 7px 7px, #162da1 8px 8px, #162da1 9px 9px, #162da1 10px 10px, #162da1 11px 11px, #162da1 12px 12px, #162da1 13px 13px, #162da1 14px 14px, #162da1 15px 15px, #162da1 16px 16px, #162da1 17px 17px, #162da1 18px 18px, #162da1 19px 19px, #162da1 20px 20px, #162da1 21px 21px, #162da1 22px 22px, #162da1 23px 23px, #162da1 24px 24px, #162da1 25px 25px, #162da1 26px 26px, #162da1 27px 27px, #162da1 28px 28px, #162da1 29px 29px, #162da1 30px 30px, #162da1 31px 31px, #162da1 32px 32px, #162da1 33px 33px, #162da1 34px 34px, #162da1 35px 35px, #162da1 36px 36px, #162da1 37px 37px, #162da1 38px 38px, #162da1 39px 39px, #162da1 40px 40px, #162da1 41px 41px, #162da1 42px 42px, #162da1 43px 43px, #162da1 44px 44px, #162da1 45px 45px, #162da1 46px 46px, #162da1 47px 47px, #162da1 48px 48px, #162da1 49px 49px, #162da1 50px 50px, #162da1 51px 51px, #162da1 52px 52px, #162da1 53px 53px, #162da1 54px 54px, #162da1 55px 55px, #162da1 56px 56px, #162da1 57px 57px, #162da1 58px 58px, #162da1 59px 59px, #162da1 60px 60px, #162da1 61px 61px, #162da1 62px 62px, #162da1 63px 63px, #162da1 64px 64px, #162da1 65px 65px, #162da1 66px 66px, #162da1 67px 67px, #162da1 68px 68px, #162da1 69px 69px, #162da1 70px 70px, #162da1 71px 71px, #162da1 72px 72px, #162da1 73px 73px, #162da1 74px 74px, #162da1 75px 75px, #162da1 76px 76px, #162da1 77px 77px, #162da1 78px 78px, #162da1 79px 79px, #162da1 80px 80px, #162da1 81px 81px, #162da1 82px 82px, #162da1 83px 83px, #162da1 84px 84px, #162da1 85px 85px, #162da1 86px 86px, #162da1 87px 87px, #162da1 88px 88px, #162da1 89px 89px, #162da1 90px 90px, #162da1 91px 91px, #162da1 92px 92px, #162da1 93px 93px, #162da1 94px 94px, #162da1 95px 95px, #162da1 96px 96px, #162da1 97px 97px, #162da1 98px 98px, #162da1 99px 99px, #162da1 100px 100px, #162da1 101px 101px, #162da1 102px 102px, #162da1 103px 103px, #162da1 104px 104px, #162da1 105px 105px, #162da1 106px 106px, #162da1 107px 107px, #162da1 108px 108px, #162da1 109px 109px, #162da1 110px 110px, #162da1 111px 111px, #162da1 112px 112px, #162da1 113px 113px, #162da1 114px 114px, #162da1 115px 115px, #162da1 116px 116px, #162da1 117px 117px, #162da1 118px 118px, #162da1 119px 119px;
+}
+
+.bg-flat-mountains {
+    background: url('../images/Flat-Mountains.svg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    min-height: 660px;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+.project-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.project-container img {
+    width: 100%;
 }
