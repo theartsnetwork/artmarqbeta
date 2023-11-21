@@ -873,8 +873,9 @@ input.text:focus {
 /* home hero specific pages */
 
 .hero-home {
-    background-image: url("../img/al-x.jpg");
-    background: linear-gradient(to left, #2e56ff, #8f37ff);
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
     : #8F37FF;
     min-height: 400px;
 }
@@ -892,9 +893,11 @@ input.text:focus {
 
 @media (min-width: 600px) {
     .hero-home {
-        background: linear-gradient(to right, #2e56ff, #8f37ff);
+        background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
         : #8F37FF;
-        background-image: url("../img/al-x.jpg");
+        
     }
 }
 
@@ -2850,7 +2853,9 @@ img {
     height: auto;
     border-bottom: 1px solid #fff;
     padding-top: 140px;
-    background-image: url("../img/ferdinand-stohr-149422.jpg");
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
 }
 
 
